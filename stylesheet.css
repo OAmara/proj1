@@ -1,0 +1,337 @@
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+.hd1 a{
+    float: left;
+    font-weight: bolder;
+    color:darkorange;
+    font-size: 40px;
+    margin-left: 10%;
+    text-decoration: none;
+    transition: 1s;
+}
+.hd1 a:hover{
+    text-shadow: 1px 1px 50px orange;
+    transform: scale(1.1)
+}
+.h2 a{
+    float: left;
+    font-weight: bolder;
+    color:white;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 5%;
+    text-decoration: none;
+}
+.h2 a:hover{
+    color:darkorange;
+    font-size: 40px;
+    transition: 1s;
+    float: left;
+    font-weight: bolder;
+    margin-top: 15px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.h3 a{
+    float: left;
+    font-weight: bolder;
+    color:white;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: 15%;
+    text-decoration: none;
+}
+.h3 a:hover{
+    color:darkorange;
+    font-size: 40px;
+    transition: 1s;
+    float: left;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+}
+/*.h3 input{
+    margin-top: 30px;
+    margin-right: 400px;
+    margin-left: 1100px;
+    
+    
+    
+    border: none;
+    
+}
+*/
+.hh1{
+    margin-top: 0px;
+    float: right;
+    margin-right: 200px;
+    border: solid;
+    border-color: darkorange;
+    border-right-width:thin;
+    background: darkorange;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: none;
+    border: none;
+}
+.hh1 input{
+    border: none;
+    color:white;
+    padding: 7px;
+    background-image: url(2669014.jpg);
+    background-position: 1238% 10%;
+    border-top-left-radius: 5px;
+}
+.hh1{
+    text-decoration: none;
+    color: white;
+    background: darkorange;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 1px;
+    
+}
+.h5 a{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-bottom-right-radius: 12px;
+    text-decoration: none;
+    color: white;
+    padding-left: 1px
+}
+.h5 a:hover{
+    color:black;
+    background: white;
+    transition: 1s;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    opacity: 50%;
+}
+.btn a{
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: bolder;
+    background: darkorange;
+    padding: 5px;
+    border: solid;
+    border-color: darkorange;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration:none;
+    color: black;
+    }
+.btn a:hover{
+    color: white;
+    transition: 1s;
+    
+}
+.log{
+    float: right;
+    background-color: hsla(243, 0%, 0%, 0.7);
+    opacity: 100%;
+    color: white;
+    margin-top: -25%;
+    margin-right: 13%;
+    
+}
+
+.log input{
+    color: white;
+    background: none;
+    transition: 0.2s;
+    border-bottom-color: darkorange;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    padding-right: 34px;
+    padding-bottom: 5px;
+        
+}
+.log a{
+     background: darkorange;
+    font-weight: bolder;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white
+}
+.log a:hover{
+    color: darkorange;
+    background-color: black;
+    transition: 0.2s;
+}
+.wrapper{
+    width: 100%;
+    display: inline;
+}
+
+.overlay {
+        display: inline;
+        margin-left: -52px;
+        opacity: 0
+      }
+.overlay:hover{
+    opacity: 1;
+    transition: 0.3s;
+}
+.service {
+    background-image: linear-gradient( darkorange,black);
+    width: 101.1555555555555555555555555555%;
+    margin-left: -0.6%;
+}
+.tbl a{
+    color: darkorange;
+    background: black;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none
+}
+.tbl a:hover{
+    color: black;
+    background: darkorange;
+    transition: 0.5s;
+    padding: 9px;
+}
+.btn1 a{
+    color: white;
+}
+.navigation{
+    position: fixed;
+    right: 0;
+    bottom: 5px;
+    background: none;
+    z-index: 10;
+}
+.contact {
+    background-color: hsla(20, 100%, 26%, 0.16);
+    margin-left: 20%;
+    margin-right: 20%;
+    color: darkorange;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 50px;
+    
+}
+.contact input {
+    background: none;
+    border: none;
+    border-bottom: solid darkorange;
+    width: 75%;
+    padding: 1%;
+    color: darkorange;
+}
+.contact ::placeholder{
+    color: darkorange;
+}
+.contact a{
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    border-radius: 10px;
+    border: solid darkorange 3px;
+    font-size: 25px
+
+}
+.contact a:hover{
+    color: darkorange;
+    transition: 1s;
+}
+.foot {
+    color: white;
+    background: black;
+    width: 101.09%;
+    margin-left: -0.55555%;
+    padding-bottom: 1%
+}
+.bx1{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: darkorange;
+    top:0px;
+    left: 0px;
+    animation-name: bx12;
+    animation-duration: 15s;    
+    z-index: 11;
+
+}
+.bx2{
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    background: darkorange;
+    top: 0;
+    right: 1px;
+    animation-name: bx12;
+    animation-duration: 15s;
+    z-index: 11;
+
+}
+.bx3{
+    position: absolute;
+    height: 00%;
+    background: black;
+    top: 0%;
+    width: 100%;
+    right: 1px;
+    transition: 1s;
+    animation-name: bx34;
+    animation-duration: 15s;
+    z-index: 11;
+
+}
+.bx4{
+    position: absolute;
+    height: 00%;
+    background: black;
+    width: 100%;
+    right: 1px;
+    bottom: 0px;
+    animation-name: bx34;
+    animation-duration: 15s;
+    z-index: 11;
+
+}
+@keyframes bx34{
+    0% {height: 50% ; display: inherit}
+    25% {height: 50% ; display: inherit}
+    50% {height: 0%}
+}
+@keyframes bx12{
+    0% {width: 50% ; display: inherit}
+    49% {opacity: 100%}
+    50% {width: 50% ; display: inherit}
+    100% {width: 0%};
+}
+.reload {
+    width: 5%;
+    background-image: url(reload.png);
+    height: 10%;
+    position: absolute;
+    top: 45%;
+    left: 47.50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(360deg);
+    transition: 0s;
+    animation-name: reload;
+    animation-duration: 15s;
+    opacity: 0%;
+    z-index: 11;
+}
+@keyframes reload{
+    0% {opacity: 100%}
+    22% {transform: rotate(1400deg);opacity: 100%}
+    25.1% {opacity: 0%}
+}
+  body[data-aos-duration='4000'] [data-aos],
+  [data-aos][data-aos][data-aos-duration='4000'] {
+    transition-duration: 8000ms;
+  }
+@keyframes ovr{
+    0% {overflow: hidden}
+    100% {overflow: hidden}
+}
